@@ -9,6 +9,99 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <title>Razorpay</title>
+
+    <style>
+      /* Mobile layout improvements for the portfolio demo */
+      @media (max-width: 767px) {
+        html, body { max-width: 100%; overflow-x: hidden; }
+        nav > div {
+          width: 100% !important;
+          max-width: 100% !important;
+          box-sizing: border-box;
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          flex-wrap: wrap !important;
+          gap: .5rem !important;
+        }
+        nav > div > a {
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
+          padding-right: 0 !important;
+        }
+        nav > div > ul {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          width: 100% !important;
+          gap: .25rem .85rem !important;
+          padding-bottom: .5rem;
+        }
+        nav > div > ul > li {
+          margin: 0 !important;
+          padding: .3rem 0 !important;
+          font-size: .78rem !important;
+        }
+        nav > div > div { gap: .5rem !important; margin-left: auto; }
+        nav > div > div > img,
+        nav > div > div > button:first-of-type { display: none !important; }
+        nav > div > div > button:last-child {
+          padding: .6rem .75rem !important;
+          font-size: .78rem !important;
+        }
+        section.bg-deepBlue > div[class*="w-10/12"] {
+          width: 90% !important;
+          max-width: 100% !important;
+          flex-direction: column !important;
+          align-items: stretch !important;
+          gap: 1.5rem !important;
+          padding-bottom: 3rem !important;
+        }
+        section.bg-deepBlue > div[class*="w-10/12"] > div { width: 100% !important; }
+        section.bg-deepBlue > div[class*="w-10/12"] h1 {
+          font-size: clamp(2rem, 8vw, 2.5rem) !important;
+          line-height: 1.15 !important;
+        }
+        section.bg-deepBlue > div[class*="w-10/12"] > img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        section.bg-deepBlue > div:last-child { display: none !important; }
+        section[class*="mt-[190px]"] { margin-top: 4rem !important; }
+        [class*="max-w-[1080px]"],
+        [class*="max-w-[1300px]"],
+        [class*="max-w-[960px]"] {
+          width: calc(100% - 2rem) !important;
+          max-width: 100% !important;
+          box-sizing: border-box;
+        }
+        section [class*="max-w-[1080px]"][class*="flex-row"],
+        section [class*="w-11/12"][class*="flex-row"] {
+          flex-direction: column !important;
+          align-items: stretch !important;
+          gap: 1.5rem !important;
+        }
+        [class*="min-h-[520px]"] {
+          min-height: 0 !important;
+          flex-direction: column !important;
+          gap: 1.5rem !important;
+          padding: 1.25rem !important;
+        }
+        [class*="max-w-[960px]"] {
+          flex-direction: column !important;
+          align-items: stretch !important;
+          gap: 1.5rem !important;
+          margin-top: 2.5rem !important;
+          margin-bottom: 2.5rem !important;
+        }
+        [class*="space-x-[10rem]"] { gap: 1.5rem !important; }
+        [class*="space-x-[10rem]"] > *,
+        [class*="space-x-20"] > * { margin-left: 0 !important; }
+        [class*="space-x-20"] { gap: 1.5rem !important; }
+        img { max-width: 100%; height: auto; }
+        button { max-width: 100%; }
+      }
+    </style>
+
 </head>
 
 <body>
