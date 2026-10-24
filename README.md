@@ -11,6 +11,8 @@
 </p>
 
 <p>
+  <a href="https://vikash-razorpay-landing.netlify.app/">Live Demo</a>
+  ·
   <a href="https://github.com/Vikashprajapat959/Razorpay">Repository</a>
   ·
   <a href="https://github.com/Vikashprajapat959">Developer Profile</a>
@@ -24,7 +26,7 @@
 
 This project is a frontend recreation inspired by the public Razorpay marketing website. It focuses on building a polished fintech-style landing page with a navigation bar, product sections, feature illustrations, calls to action, and a multi-section layout.
 
-It is intended as a **frontend learning and portfolio project**. It is not the official Razorpay website and does not process payments.
+It is intended as a **frontend learning and portfolio project**. A deployed preview is available at [Live Demo](https://vikash-razorpay-landing.netlify.app/). This is not the official Razorpay website and it does not process payments.
 
 ## UI Sections
 
@@ -87,10 +89,10 @@ Razorpay/
 ## Possible Next Steps
 
 - Verify responsive layouts across mobile, tablet, and desktop widths.
-- Add a genuine screenshot of the locally running page to this README.
+- Add a genuine screenshot of the live page to this README.
 - Check navigation links and button behavior.
 - Build reusable components and improve accessibility.
-- Add a production build/deployment workflow after validating the current setup.
+- Continue improving responsive layouts, accessibility, and interactive behavior.
 
 ---
 
